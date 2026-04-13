@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+tensorflow
+fastapi
+uvicorn[standard]
+joblib
+tflite-runtime; platform_machine != "x86_64" and platform_machine != "AMD64" and platform_system == "Linux"
